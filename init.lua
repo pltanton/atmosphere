@@ -10,7 +10,7 @@ function startup()
     end
 end
 
-local RECONNECT_TRIES = 75
+local RECONNECT_TRIES = 10000
 
 -- Define WiFi station event callbacks 
 wifi_connect_event = function(T) 

@@ -13,7 +13,7 @@ function mqtt_connect()
     mqttClient:connect(MQTT_HOST, MQTT_PORT, 0, 0, handle_mqtt_connect, handle_mqtt_error)
 end
 
-function mqtt_publish(topic, message)
+mqtt_publish = function (topic, message)
     print("Trying to publish "..topic..": "..message)
     mqttClient:publish(topic, message, 0, 0)
 end
