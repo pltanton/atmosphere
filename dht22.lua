@@ -1,5 +1,5 @@
 do
-    local DHT22_PIN = 2
+    local DHT22_PIN = 6
     local MQTT_HUMI = "/atmosphere/humi"
     local MQTT_TEMP = "/atmosphere/temp"
     local PUBLISH_INTERVAL = 100000

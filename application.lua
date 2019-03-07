@@ -1,4 +1,5 @@
 dofile("mqtt.lua")
+dofile("led.lua")
 dofile("mhz19.lua")
 dofile("dht22.lua")
 dofile("ldr.lua")
